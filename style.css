@@ -23,7 +23,7 @@ p{
    background-size: cover;
    background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(0,0,0,1)),url(images/donation3.jpg);
    height: 100vh;
-   width: 100vw; 
+   width: 100%; 
 }
 
 .intro{
@@ -81,4 +81,39 @@ hr{
     width: 40%;
     border: 1px solid rgba(128, 128, 128, 0.372);
     background-color: rgba(128, 128, 128, 0.372);
+}
+
+.donate_sec{
+    margin: 100px 20px;
+}
+
+#donate_heading{
+    text-align: center;
+}
+
+.donate_plan{
+    display: flex;
+
+}
+.donate_item{
+    width: 33.3%;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 5px;
+}
+
+#blue{
+    background-color: rgba(135, 207, 235, 0.708);
+}
+
+#pink{
+    background-color: rgba(255, 192, 203, 0.612);
+}
+
+#orange{
+    background-color: rgba(255, 166, 0, 0.534);
+}
+
+.donate_item p{
+    margin-left: 0px;
 }
