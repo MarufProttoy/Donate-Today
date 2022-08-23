@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0%;
+    padding-top:5%
+}
+
+p{
+    font-size: 14px;
+    margin: 10px;
+}
+
+.intro_sec{
+
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(0,0,0,1)),url(images/donation3.jpg);
+   height: 100vh;
+   width: 100vw; 
+}
+
+.intro{
+    padding: 80px 40px;
+    color:white;
+    text-align: center; 
+   
+}
+
+button{
+    margin-top: 30px;
+    background-image: linear-gradient(tomato,red);
+    color: white;
+    padding: 20px 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.donate-today{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.amount{
+    margin: 30px;
+}
+
+.amount_item{
+    background-color: rgba(128, 128, 128, 0.082);
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+ .amp {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+ #orange{
+    background-color: rgba(255, 99, 71, 0.226);
+    border: 1px solid tomato;
+   
+}
+
+input{
+    border: none;
+}
+
+hr{
+    width: 40%;
+    border: 1px solid rgba(128, 128, 128, 0.372);
+    background-color: rgba(128, 128, 128, 0.372);
+}
